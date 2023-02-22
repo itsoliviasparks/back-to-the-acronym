@@ -13,5 +13,5 @@ Backronym: n. acronym deliberately formed from a phrase whose initial letters sp
 - This repo contains updates I have implemented individually, to see our original paired programing work, <a href="https://github.com/The-Backronym-Organization/project-4">click here</a>.
 
 ## Features
-- We utilized React, Firebase, an API, & Sass in the creation of this project
+- We utilized React, Firebase, Firebase User Authentication (via Google), an API, & Sass in the creation of this project
 - The site features data pulled from the <a href="https://www.datamuse.com/api/">Datamuse API</a>
