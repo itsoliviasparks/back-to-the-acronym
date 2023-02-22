@@ -9,10 +9,12 @@ Also, sometimes you can't just think of a good acronym! And that's where Back To
 Backronym: n. acronym deliberately formed from a phrase whose initial letters spell out a particular word or words.
 
 ## Use
-- To use the app, the user first types in their desired acronym of 2-6 characters, they also have the choice to add additional context words to narrow the scope of their results
-- From there, their input is saved in state & used in an API call
-- Upon completion of the call their acronym result is shown on the page. The user can refresh through their acronym results until they find one they like
-- Liked acronyms are then saved into the users acronym database. The site auto generates a one time anonymous key for their session OR the user can authenticate via Google, to save their acronyms to access each time they use the site
+- To use the app, the user first types in their desired acronym of 2-6 characters. They also have the choice to add additional context words to narrow the scope of their results
+- From there, the user input is saved into state & triggers an API call
+- Upon completion of the API call, the resulting acronym is displayed on the page
+- If the user does not like their result, they can hit the refresh button to cycle thru all word options
+- If there is a particular word in the result acronym the user likes, they can lock-in that word, and continue to cycle through additional options for all other letters until they land on an acronym that they like
+- Liked acronyms are saved into the user's acronym database. The user can authenticate via Google, to save their acronyms to access each time they use the site, or if they choose to stay anonymous, the site auto generates a one time anonymous key for their session
 - Additionally, the user may edit, update, & delete their previously saved acronyms both as an anonymous user & as an authenticated user
 
 ## Group Programming
