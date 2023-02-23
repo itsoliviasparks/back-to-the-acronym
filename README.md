@@ -4,7 +4,7 @@
 ## About
 "Doc, You Don't Just Walk Into A Store And Buy Plutonium!"
 
-Also, sometimes you can't just think of a good acronym! And that's where Back To The Acronym comes in. This app, designed after the iconic 1985 film "Back To The Future", helps the user create a backronym.
+Sometimes you just can't think up a good acronym! And that's where Back To The Acronym comes in. This app, designed after the iconic 1985 film "Back To The Future", helps the user create a backronym.
 
 Backronym: n. acronym deliberately formed from a phrase whose initial letters spell out a particular word or words.
 
