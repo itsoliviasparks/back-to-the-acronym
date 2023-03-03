@@ -19,6 +19,8 @@ function Login({ isLoggedIn, setIsLoggedIn, setUserKey }) {
 
   const logout = () => {
     signOut(auth);
+    localStorage.clear();
+    window.location.reload();
     setIsLoggedIn(false);
     setUserKey('');
   };
@@ -26,9 +28,9 @@ function Login({ isLoggedIn, setIsLoggedIn, setUserKey }) {
   return (
     <div className='signIn'>
       {isLoggedIn ? (
-        <button className='signIn' onClick={logout}>Log Out</button>
+        <button onClick={logout}>Log Out</button>
       ) : (
-        <button className='signIn' onClick={handleClick}>Sign In</button>
+        <button onClick={handleClick}>Sign In With Google</button>
       )}
     </div>
   )
