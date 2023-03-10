@@ -24,3 +24,7 @@ Backronym: n. acronym deliberately formed from a phrase whose initial letters sp
 ## Features
 - We utilized React, Firebase, Firebase User Authentication (via Google), an API, & Sass in the creation of this project
 - The site features data pulled from the <a href="https://www.datamuse.com/api/">Datamuse API</a>
+
+## Areas of Improvement
+- I am working on updating a few elemnts that are lacking proper accessability features
+- The App.js file is quite full, and will be refactored, which will also improve the prop drilling
